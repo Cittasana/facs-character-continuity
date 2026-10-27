@@ -1,8 +1,8 @@
 # Example character card: C-002 "Elias Varga" — reference image and the seven basic emotions
 
-A worked example with real generated images: one approved neutral reference portrait and seven basic-emotion expressions (joy, sadness, anger, fear, surprise, disgust, contempt), each directed as a delta from the reference and passed through the skill's identity review gate.
+A worked example with real generated images (stored on the [media branch](https://github.com/Cittasana/facs-character-continuity/tree/media/C-002-elias-varga) so the plugin itself stays text-only): one approved neutral reference portrait and seven basic-emotion expressions (joy, sadness, anger, fear, surprise, disgust, contempt), each directed as a delta from the reference and passed through the skill's identity review gate.
 
-![C-002 expression sheet](C-002-expression-sheet.jpg)
+![C-002 expression sheet](https://raw.githubusercontent.com/Cittasana/facs-character-continuity/media/C-002-elias-varga/C-002-expression-sheet.jpg)
 
 > Elias Varga is an invented character. The images are AI-generated and do not depict a real person. Emotion labels are dramatic readings of visible facial movement, not claims about anyone's inner state. All observations below are visual descriptions made by a reviewer; nothing was measured.
 
@@ -84,13 +84,13 @@ Intensity uses the skill's A–E scale (A barely detectable, E near maximum). Ev
 
 | ID | Dramatic read | Visible action plan (delta from neutral) | Target intensity | Symmetry | Adopted image |
 |---|---|---|---|---|---|
-| E01 | Joy | Cheeks lift, nose-to-mouth folds deepen; lower lids push up with crow's-feet creases; corners pull up and back, lips part to show upper teeth; brows relaxed | cheeks C, eyes C, mouth C | natural | [E01-joy-v1](images/C-002-E01-joy-v1.jpg) |
-| E02 | Sadness | Inner brow ends rise and draw together, short central forehead wrinkles; upper lids droop slightly; corners pull down, chin pushes up so the lower lip bulges | brows C, eyes B, mouth C | natural | [E02-sadness-v1](images/C-002-E02-sadness-v1.jpg) |
-| E03 | Anger | Brows pull down and together with vertical furrows; hard stare; nostrils flare; lips pressed so the lip line thins; chin and jaw tense | brows C, eyes C, nose B, mouth C | natural | [E03-anger-v3](images/C-002-E03-anger-v3.jpg) |
-| E04 | Fear | Brows raised and pulled together (lifted but flat), central forehead wrinkles; upper lids wide with white above the irises; lips stretched sideways, mouth slightly open | brows C, eyes C, mouth C | natural | [E04-fear-v3](images/C-002-E04-fear-v3.jpg) |
-| E05 | Surprise | Brows raised high and curved with long forehead lines; upper lids wide; jaw drops into a relaxed open oval, no lip tension | brows C, eyes C, mouth C | natural | [E05-surprise-v1](images/C-002-E05-surprise-v1.jpg) |
-| E06 | Disgust | Nose wrinkles across the bridge; cheeks rise; upper lip lifts to show a little of the upper teeth, folds deepen; brows lower slightly; lower lids push up | nose/cheeks C, mouth C, brows B, eyes B | natural | [E06-disgust-v1](images/C-002-E06-disgust-v1.jpg) |
-| E07 | Contempt | Only the mouth corner on the side without the mole (image left) tightens and pulls slightly up and back with a small dimple; other corner neutral; lids lower slightly | mouth B, eyes A | one-sided, image left | [E07-contempt-v2](images/C-002-E07-contempt-v2.jpg) |
+| E01 | Joy | Cheeks lift, nose-to-mouth folds deepen; lower lids push up with crow's-feet creases; corners pull up and back, lips part to show upper teeth; brows relaxed | cheeks C, eyes C, mouth C | natural | [E01-joy-v1](https://github.com/Cittasana/facs-character-continuity/blob/media/C-002-elias-varga/images/C-002-E01-joy-v1.jpg) |
+| E02 | Sadness | Inner brow ends rise and draw together, short central forehead wrinkles; upper lids droop slightly; corners pull down, chin pushes up so the lower lip bulges | brows C, eyes B, mouth C | natural | [E02-sadness-v1](https://github.com/Cittasana/facs-character-continuity/blob/media/C-002-elias-varga/images/C-002-E02-sadness-v1.jpg) |
+| E03 | Anger | Brows pull down and together with vertical furrows; hard stare; nostrils flare; lips pressed so the lip line thins; chin and jaw tense | brows C, eyes C, nose B, mouth C | natural | [E03-anger-v3](https://github.com/Cittasana/facs-character-continuity/blob/media/C-002-elias-varga/images/C-002-E03-anger-v3.jpg) |
+| E04 | Fear | Brows raised and pulled together (lifted but flat), central forehead wrinkles; upper lids wide with white above the irises; lips stretched sideways, mouth slightly open | brows C, eyes C, mouth C | natural | [E04-fear-v3](https://github.com/Cittasana/facs-character-continuity/blob/media/C-002-elias-varga/images/C-002-E04-fear-v3.jpg) |
+| E05 | Surprise | Brows raised high and curved with long forehead lines; upper lids wide; jaw drops into a relaxed open oval, no lip tension | brows C, eyes C, mouth C | natural | [E05-surprise-v1](https://github.com/Cittasana/facs-character-continuity/blob/media/C-002-elias-varga/images/C-002-E05-surprise-v1.jpg) |
+| E06 | Disgust | Nose wrinkles across the bridge; cheeks rise; upper lip lifts to show a little of the upper teeth, folds deepen; brows lower slightly; lower lids push up | nose/cheeks C, mouth C, brows B, eyes B | natural | [E06-disgust-v1](https://github.com/Cittasana/facs-character-continuity/blob/media/C-002-elias-varga/images/C-002-E06-disgust-v1.jpg) |
+| E07 | Contempt | Only the mouth corner on the side without the mole (image left) tightens and pulls slightly up and back with a small dimple; other corner neutral; lids lower slightly | mouth B, eyes A | one-sided, image left | [E07-contempt-v2](https://github.com/Cittasana/facs-character-continuity/blob/media/C-002-elias-varga/images/C-002-E07-contempt-v2.jpg) |
 
 ## 5. Review log
 
@@ -102,15 +102,15 @@ Every candidate was compared with the neutral front reference at the same pose, 
 | Neutral B | — | — | — | — | — | not used | Fuller, sculpted lips and a smoother, retouched look |
 | E01 joy v1 | pass, marks | pass | pass | pass (C/C/C) | pass | **adopt** | Wider face and raised mole explained by the cheek lift |
 | E02 sadness v1 | pass, marks | pass | pass | pass (C/B/C) | pass | **adopt** | Chin bunching explained by the requested chin raise |
-| E03 anger v1 | pass, marks | pass | pass | **fail** | pass | regenerate | Lips only lightly pressed (mouth A–B), no nostril flare; see [rejected/E03-anger-v1](images/rejected/C-002-E03-anger-v1.jpg) |
-| E03 anger v2 | pass, marks | pass | pass | **fail** | pass | regenerate | Brows, eyes, mouth at C, but nostrils barely changed (nose A, target B); see [rejected/E03-anger-v2](images/rejected/C-002-E03-anger-v2.jpg) |
+| E03 anger v1 | pass, marks | pass | pass | **fail** | pass | regenerate | Lips only lightly pressed (mouth A–B), no nostril flare; see [rejected/E03-anger-v1](https://github.com/Cittasana/facs-character-continuity/blob/media/C-002-elias-varga/images/rejected/C-002-E03-anger-v1.jpg) |
+| E03 anger v2 | pass, marks | pass | pass | **fail** | pass | regenerate | Brows, eyes, mouth at C, but nostrils barely changed (nose A, target B); see [rejected/E03-anger-v2](https://github.com/Cittasana/facs-character-continuity/blob/media/C-002-elias-varga/images/rejected/C-002-E03-anger-v2.jpg) |
 | E03 anger v3 | pass, marks | pass | pass | pass (C/C/B/C) | pass | **adopt** | Refinement edit of v2 with the neutral as identity reference; skin reads slightly warmer and lines deeper, consistent with the tension |
-| E04 fear v1 | pass, marks | pass | pass | **fail** | pass | regenerate | Mouth opened but not stretched sideways (mouth B); see [rejected/E04-fear-v1](images/rejected/C-002-E04-fear-v1.jpg) |
-| E04 fear v2 | pass, marks | pass | pass | **fail** | pass | regenerate | Lips now stretched, but upper lids not wide enough (eyes B); see [rejected/E04-fear-v2](images/rejected/C-002-E04-fear-v2.jpg) |
+| E04 fear v1 | pass, marks | pass | pass | **fail** | pass | regenerate | Mouth opened but not stretched sideways (mouth B); see [rejected/E04-fear-v1](https://github.com/Cittasana/facs-character-continuity/blob/media/C-002-elias-varga/images/rejected/C-002-E04-fear-v1.jpg) |
+| E04 fear v2 | pass, marks | pass | pass | **fail** | pass | regenerate | Lips now stretched, but upper lids not wide enough (eyes B); see [rejected/E04-fear-v2](https://github.com/Cittasana/facs-character-continuity/blob/media/C-002-elias-varga/images/rejected/C-002-E04-fear-v2.jpg) |
 | E04 fear v3 | pass, marks | pass | pass | pass (C/C/C) | pass, crop limited | **adopt** | Crop about 7% tighter than the reference; recorded as a limitation |
 | E05 surprise v1 | pass, marks | pass | pass | pass (C/C/C) | pass | **adopt** | Open mouth stays relaxed, as requested |
 | E06 disgust v1 | pass, marks | pass | pass | pass | pass | **adopt** | Extra creases explained by the nose wrinkle and cheek raise |
-| E07 contempt v1 | pass, marks | pass | **fail** | pass (B/A) | pass | regenerate | Mouth corner pulled on the wrong side (the mole side); see [rejected/E07-contempt-v1](images/rejected/C-002-E07-contempt-v1.jpg) |
+| E07 contempt v1 | pass, marks | pass | **fail** | pass (B/A) | pass | regenerate | Mouth corner pulled on the wrong side (the mole side); see [rejected/E07-contempt-v1](https://github.com/Cittasana/facs-character-continuity/blob/media/C-002-elias-varga/images/rejected/C-002-E07-contempt-v1.jpg) |
 | E07 contempt v2 | pass, marks | pass | pass | pass (B/A–B) | pass | **adopt** | Correct side; prompt anchored the side to the mole instead of saying "his right" |
 
 **Allowed use for every adopted image:** C-002, front view, studio light, charcoal-sweater costume, at the recorded intensity. None of them is an apex reference for stronger versions of the same emotion, and none replaces the neutral reference.

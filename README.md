@@ -43,7 +43,7 @@ Upload the folder through the [Skills API](https://docs.claude.com/en/docs/agent
 
 ### C-002 Elias Varga: reference image and the seven basic emotions
 
-[![C-002 expression sheet](examples/C-002-elias-varga/C-002-expression-sheet.jpg)](examples/C-002-elias-varga/)
+[![C-002 expression sheet](https://raw.githubusercontent.com/Cittasana/facs-character-continuity/media/C-002-elias-varga/C-002-expression-sheet.jpg)](examples/C-002-elias-varga/)
 
 [`examples/C-002-elias-varga/`](examples/C-002-elias-varga/) is a real run of the skill with generated images: one approved neutral reference and seven basic-emotion deltas. The review log shows all 14 generations, including the five that the gate sent back (one smirk on the wrong side, four regional intensity misses) and how each was fixed.
 
@@ -73,6 +73,7 @@ Upload the folder through the [Skills API](https://docs.claude.com/en/docs/agent
 ├── examples/
 │   ├── C-001-mara-kessling.md   # text-only worked character card
 │   └── C-002-elias-varga/       # card with reference image, 7 emotions, review log
+│                                #   (images live on the media branch)
 ├── PRIVACY.md
 ├── .github/workflows/
 │   └── release.yml           # builds the uploadable ZIP on every version tag

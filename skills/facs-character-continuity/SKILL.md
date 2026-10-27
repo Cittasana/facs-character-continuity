@@ -40,7 +40,7 @@ Write expression direction as a delta from the approved neutral baseline, not as
 1. **Dramatic beat:** event, objective, subtext, and whether the emotion is expressed, restrained, masked, or involuntary.
 2. **Visible action plan:** separately direct brow/forehead, eyelids/eyes, cheeks/nose, mouth/lips/jaw, gaze, and head.
 3. **Strength:** rate each action from A (barely detectable) to E (near maximum). Prefer A-C unless the script genuinely needs an extreme expression.
-4. **Spatial character:** bilateral, deliberately one-sided, or naturally asymmetric. Preserve the character's established resting asymmetry.
+4. **Spatial character:** bilateral, deliberately one-sided, or naturally asymmetric. Preserve the character's established resting asymmetry. For a one-sided action, name the side by a visible landmark from the identity pack (for example "the side without the mole") and also state the image side, because generators often confuse the character's left and right with the image's left and right. Check the side again in review.
 5. **Time:** for motion, specify onset, apex, hold, and release. A microexpression is a brief event in motion; do not describe a static portrait as one.
 
 Set a requested action and target intensity for each relevant facial region before generating. Then separately document what is actually visible in each output. Do not reinterpret a missed target as a pass by rewriting the intended action after the fact.

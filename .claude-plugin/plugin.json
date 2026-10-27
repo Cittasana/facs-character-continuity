@@ -1,0 +1,21 @@
+{
+  "name": "facs-character-continuity",
+  "description": "FACS-informed character reference system that keeps AI-generated characters consistent across images, angles, expressions, and short video scenes.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Cittasana",
+    "url": "https://github.com/Cittasana"
+  },
+  "homepage": "https://github.com/Cittasana/facs-character-continuity",
+  "repository": "https://github.com/Cittasana/facs-character-continuity",
+  "license": "MIT",
+  "keywords": [
+    "character-consistency",
+    "facs",
+    "expressions",
+    "character-sheet",
+    "image-generation",
+    "video-generation",
+    "prompting"
+  ]
+}

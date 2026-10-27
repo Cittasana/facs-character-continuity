@@ -1,0 +1,28 @@
+name: Release skill ZIP
+
+# Push a tag like v1.0.0 to build the uploadable ZIP and attach it to a GitHub Release.
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build ZIP (skill folder at the top level of the archive)
+        run: |
+          cd skills
+          zip -r ../facs-character-continuity.zip facs-character-continuity -x '*.DS_Store'
+
+      - name: Create GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "$GITHUB_REF_NAME" facs-character-continuity.zip \
+            --title "$GITHUB_REF_NAME" \
+            --generate-notes

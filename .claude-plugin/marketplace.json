@@ -1,0 +1,17 @@
+{
+  "name": "cittasana-skills",
+  "description": "Skills by Cittasana for consistent AI-generated characters.",
+  "owner": {
+    "name": "Cittasana",
+    "url": "https://github.com/Cittasana"
+  },
+  "plugins": [
+    {
+      "name": "facs-character-continuity",
+      "source": "./",
+      "description": "Keep AI-generated characters consistent across images, angles, expressions, and short video scenes.",
+      "category": "creative",
+      "tags": ["character-consistency", "facs", "image-generation", "video-generation"]
+    }
+  ]
+}

@@ -77,6 +77,10 @@ Upload the folder through the [Skills API](https://docs.claude.com/en/docs/agent
 └── README.md
 ```
 
+## Data and privacy
+
+The skill is instructions only: two Markdown files, no scripts, no MCP servers, no hooks, and no network calls. It sends no data anywhere and collects nothing. Any images you work with stay in your Claude conversation and in whichever image or video generator you choose to use.
+
 ## Scope and responsible use
 
 This skill is for designing **fictional or consenting characters** in creative production: character sheets, storyboards, short films, games, and similar work.

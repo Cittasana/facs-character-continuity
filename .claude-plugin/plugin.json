@@ -1,5 +1,7 @@
 {
   "name": "facs-character-continuity",
+  "displayName": "FACS Character Continuity",
+  "icon": "./.claude-plugin/icon.png",
   "description": "FACS-informed character reference system that keeps AI-generated characters consistent across images, angles, expressions, and short video scenes.",
   "version": "1.0.0",
   "author": {

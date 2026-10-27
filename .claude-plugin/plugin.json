@@ -11,6 +11,9 @@
   "homepage": "https://github.com/Cittasana/facs-character-continuity",
   "repository": "https://github.com/Cittasana/facs-character-continuity",
   "license": "MIT",
+  "documentationUrl": "https://github.com/Cittasana/facs-character-continuity#readme",
+  "supportUrl": "https://github.com/Cittasana/facs-character-continuity/issues",
+  "privacyPolicyUrl": "https://github.com/Cittasana/facs-character-continuity/blob/main/PRIVACY.md",
   "keywords": [
     "character-consistency",
     "facs",

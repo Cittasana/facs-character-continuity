@@ -72,7 +72,7 @@ Upload the folder through the [Skills API](https://docs.claude.com/en/docs/agent
 
 ## Data and privacy
 
-The skill is instructions only: two Markdown files, no scripts, no MCP servers, no hooks, and no network calls. It sends no data anywhere and collects nothing. Any images you work with stay in your Claude conversation and in whichever image or video generator you choose to use.
+The skill is instructions only: two Markdown files, no scripts, no MCP servers, no hooks, and no network calls. It sends no data anywhere and collects nothing. See [PRIVACY.md](PRIVACY.md). Any images you work with stay in your Claude conversation and in whichever image or video generator you choose to use.
 
 ## Scope and responsible use
 

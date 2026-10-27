@@ -9,7 +9,7 @@ It treats a character's identity as a **locked baseline** and every expression a
 - **Identity pack first** – guides you to a neutral multi-view reference set (front, ¾ left, ¾ right, profile) and a written record of locked features, with extra care for the mouth and lower face, where drift is most common.
 - **Expressions as deltas** – directs brow, eyes, cheeks, mouth, gaze, and head separately, with an A–E intensity scale, symmetry, and onset → apex → hold → release timing for video.
 - **Generator-ready prompts** – a fixed identity block plus only the scene-specific delta, usable with any image or video model.
-- **Review gate** – separate `pass / review / fail / not_assessable` checks for identity, lower face, expression, intensity, pose, wardrobe, and (optionally) face-mesh and blendshape data, followed by a library decision: `adopt`, `restricted_use`, or `regenerate`.
+- **Review gate** – separate checks, each marked `pass`, `review`, `fail`, or `not_assessable`, for identity, lower face, expression, intensity, pose, wardrobe, and (optionally) face-mesh and blendshape data, followed by a library decision: `adopt`, `restricted_use`, or `regenerate`.
 - **Honest about evidence** – visual observations are labelled as visual observations, never presented as biometric measurement or formal FACS coding.
 
 ## Installation
@@ -33,14 +33,7 @@ Claude picks the skill up automatically when a request matches. You can also cal
 
 ### Claude Code (manual)
 
-Copy the skill folder into your personal or project skills directory:
-
-```bash
-git clone https://github.com/Cittasana/facs-character-continuity.git
-cp -r facs-character-continuity/skills/facs-character-continuity ~/.claude/skills/
-# or, for one project only:
-cp -r facs-character-continuity/skills/facs-character-continuity .claude/skills/
-```
+Download the [skill ZIP](https://github.com/Cittasana/facs-character-continuity/releases/latest/download/facs-character-continuity.zip), unzip it, and move the `facs-character-continuity` folder into `~/.claude/skills/` for all projects, or into `.claude/skills/` inside one project.
 
 ### Claude API and other agents
 

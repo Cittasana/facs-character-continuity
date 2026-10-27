@@ -1,7 +1,10 @@
 name: Release skill ZIP
 
-# Push a tag like v1.0.0 to build the uploadable ZIP and attach it to a GitHub Release.
+# Builds the uploadable ZIP and attaches it to a GitHub Release.
+# Runs when a release is published in the GitHub UI, or when a v* tag is pushed.
 on:
+  release:
+    types: [published]
   push:
     tags: ["v*"]
 
@@ -19,10 +22,13 @@ jobs:
           cd skills
           zip -r ../facs-character-continuity.zip facs-character-continuity -x '*.DS_Store'
 
-      - name: Create GitHub Release
+      - name: Attach ZIP to the release
         env:
           GH_TOKEN: ${{ github.token }}
+          TAG: ${{ github.event.release.tag_name || github.ref_name }}
         run: |
-          gh release create "$GITHUB_REF_NAME" facs-character-continuity.zip \
-            --title "$GITHUB_REF_NAME" \
-            --generate-notes
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            gh release upload "$TAG" facs-character-continuity.zip --clobber
+          else
+            gh release create "$TAG" facs-character-continuity.zip --title "$TAG" --generate-notes
+          fi

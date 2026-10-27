@@ -39,7 +39,15 @@ Download the [skill ZIP](https://github.com/Cittasana/facs-character-continuity/
 
 Upload the folder through the [Skills API](https://docs.claude.com/en/docs/agents-and-tools/agent-skills/overview). Agents that follow the open Agent Skills format can load `skills/facs-character-continuity/` as it is.
 
-## Worked example
+## Worked examples
+
+### C-002 Elias Varga: reference image and the seven basic emotions
+
+[![C-002 expression sheet](examples/C-002-elias-varga/C-002-expression-sheet.jpg)](examples/C-002-elias-varga/)
+
+[`examples/C-002-elias-varga/`](examples/C-002-elias-varga/) is a real run of the skill with generated images: one approved neutral reference and seven basic-emotion deltas. The review log shows all 14 generations, including the five that the gate sent back (one smirk on the wrong side, four regional intensity misses) and how each was fixed.
+
+### C-001 Mara Kessling: text-only production card
 
 [`examples/C-001-mara-kessling.md`](examples/C-001-mara-kessling.md) walks through one fictional character from start to finish: the locked identity pack, a still expression card ("holding it together"), a three-second video beat ("suppressed smile"), the generator-ready prompts for both, and three reviewed candidates that end in `regenerate`, `adopt`, and `restricted_use`.
 
@@ -63,7 +71,9 @@ Upload the folder through the [Skills API](https://docs.claude.com/en/docs/agent
 │       └── references/
 │           └── expression-card-schema.md
 ├── examples/
-│   └── C-001-mara-kessling.md   # full worked character card
+│   ├── C-001-mara-kessling.md   # text-only worked character card
+│   └── C-002-elias-varga/       # card with reference image, 7 emotions, review log
+├── PRIVACY.md
 ├── .github/workflows/
 │   └── release.yml           # builds the uploadable ZIP on every version tag
 ├── LICENSE
